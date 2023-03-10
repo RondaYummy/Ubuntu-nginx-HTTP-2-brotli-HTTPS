@@ -254,6 +254,12 @@ sudo ufw enable
 sudo ufw allow 'Nginx Full'
 ```
 
+Видалити надлишковий дозвіл профілю «Nginx HTTP»:
+
+```
+sudo ufw delete allow 'Nginx HTTP'
+```
+
 Дозволяється OpenSSH
 
 ```
